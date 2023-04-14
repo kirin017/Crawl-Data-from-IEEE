@@ -26,18 +26,23 @@ search_button.click()
 
 html = driver.page_source
 soup = BeautifulSoup(html, 'html.parser')
-papers = soup.find_all('div',class_="col result-item-align px-3")
+papers = soup.find_all('div',class_="List-results-items")
     
-# Crawler dữ liệu
+file = open("data.txt", 'w')
+# Crawler dữ liệu và lưu vào file txt
 for paper in papers:
-    title = soup.find('h3',class_="result-item-title").text
-    authors = soup.find('p', "author text-base-md-lh").text
-    publisher_info = soup.find('div', 'description').find('a').text
-    publisher = soup.find('div', "description").find('div', "publisher-info-container").text
-    print("Title:", title)
-    print("Author", authors)
-    print("Description: ", publisher_info)
-    print("Publisher: ", publisher)
+    title = paper.find('h3',class_="result-item-title").text
+    authors = paper.find('p', "author text-base-md-lh").text
+    publisher_info = paper.find('div', 'description').find('a').text
+    publisher = paper.find('div', "description").find('div', "publisher-info-container").text
+    file.write("\nTitle: ")
+    file.write(title)
+    file.write("\nAuthor: ")
+    file.write(authors)
+    file.write("Publisher information:")
+    file.write(publisher_info)
+    file.write("\nPublisher: ")
+    file.write(publisher)
 
 driver.quit()
 # Đóng trình điều khiển

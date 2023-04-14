@@ -1,0 +1,13 @@
+
+Title: Comparative Analysis of Activation Functions Used in the Hidden Layers of Deep Neural Networks
+Author: Martin Kaloev;Georgi KrastevPublisher information:2021 3rd International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA)
+Publisher: Year: 2021 | Conference Paper | Publisher: IEEE
+Title: Experiments Focused on Exploration in Deep Reinforcement Learning
+Author: Martin Kaloev;Georgi KrastevPublisher information:2021 5th International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)
+Publisher: Year: 2021 | Conference Paper | Publisher: IEEE
+Title: Automation of Information Exchange Between Neural Networks
+Author: Martin Kaloev;Georgi KrastevPublisher information:2021 IEEE 27th International Symposium for Design and Technology in Electronic Packaging (SIITME)
+Publisher: Year: 2021 | Conference Paper | Publisher: IEEE
+Title: Better connections between business and education via social platform utilizing smart systems
+Author: Martin KaloevPublisher information:2019 29th Annual Conference of the European Association for Education in Electrical and Information Engineering (EAEEIE)
+Publisher: Year: 2019 | Conference Paper | Publisher: IEEE
